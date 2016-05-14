@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-14T15:59:31.127Z</updated>
+  <updated>2016-05-14T16:02:03.982Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,11 +20,10 @@
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
     <published>2016-05-14T11:19:52.000Z</published>
-    <updated>2016-05-14T15:59:31.127Z</updated>
+    <updated>2016-05-14T16:02:03.982Z</updated>
     
     <content type="html">&lt;p&gt;第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。&lt;/p&gt;
-&lt;p&gt;##papaer reading&lt;/p&gt;
-&lt;ul&gt;
+&lt;h2 id=&quot;papaer-reading&quot;&gt;&lt;a href=&quot;#papaer-reading&quot; class=&quot;headerlink&quot; title=&quot;papaer reading&quot;&gt;&lt;/a&gt;papaer reading&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;Mixed Reality Simulation with Physical Mobile Display Devices.（移动显示设备的混合现实仿真系统）  &lt;/li&gt;
 &lt;li&gt;###reading结果应包含以下几个部分  &lt;/li&gt;
 &lt;li&gt;1.What is the task/goal of this paper?&lt;/li&gt;
@@ -35,10 +34,9 @@
 &lt;li&gt;6.Pros and Cons&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;##term project&lt;/p&gt;
-&lt;ul&gt;
+&lt;h2 id=&quot;term-project&quot;&gt;&lt;a href=&quot;#term-project&quot; class=&quot;headerlink&quot; title=&quot;term project&quot;&gt;&lt;/a&gt;term project&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;h3 id=&quot;title-1&quot;&gt;&lt;a href=&quot;#title-1&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;3D Object Recognition  &lt;/li&gt;
-&lt;li&gt;###要求  &lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;要求&quot;&gt;&lt;a href=&quot;#要求&quot; class=&quot;headerlink&quot; title=&quot;要求&quot;&gt;&lt;/a&gt;要求&lt;/h3&gt;&lt;/li&gt;
 &lt;li&gt;&amp;emsp;Bonus (Realizing each of the following tasks you can gain up to 10%&lt;br&gt;more scores of your project score, i.e. your final project score = basic&lt;br&gt;project score * 110% )  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
@@ -46,16 +44,14 @@
 &lt;li&gt;&amp;emsp;Result evaluation on public datasets (+10%):&lt;br&gt;&amp;emsp;&amp;emsp;a. B3DO: Berkeley 3-D Object Dataset: &lt;a href=&quot;http://kinectdata.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://kinectdata.com/&lt;/a&gt;&lt;br&gt;&amp;emsp;&amp;emsp;b. MSR-Object3D-300 Dataset&amp;gt;:&lt;br&gt;&lt;a href=&quot;http://research.microsoft.com/enus/projects/3d_reconstruction_recognition/3d_obj_recognition.aspx&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://research.microsoft.com/enus/projects/3d_reconstruction_recognition/3d_obj_recognition.aspx&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;###参考资料&lt;br&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;eRW1zG_aONk&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;TgnocccmS7U&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;4rMAxjl5og8&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;You can refer to but not limited to the following references&lt;br&gt;[1]. Unsupervised 3D Object Recognition and Reconstruction in Unordered&lt;br&gt;Datasets, In 3DIM, 2005.&lt;br&gt;[2]. What and Where: 3D Object Recognition with Accurate Pose, 2006&lt;br&gt;[3]. Towards 3D Object Recognition via Classification of Arbitrary Object&lt;br&gt;Tracks, IN ICRA, 2011.&lt;br&gt;[4]. Shape-based Object Recognition in Videos Using 3D Synthetic Object&lt;br&gt;Models, In CVPR, 2009&lt;/https:&gt;&lt;/https:&gt;&lt;/https:&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h3&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;eRW1zG_aONk&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;TgnocccmS7U&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;&lt;https: www.youtube.com=&quot;&quot; watch?v=&quot;4rMAxjl5og8&quot; (youtube=&quot;&quot; video)=&quot;&quot;&gt;&lt;br&gt;You can refer to but not limited to the following references&lt;br&gt;[1]. Unsupervised 3D Object Recognition and Reconstruction in Unordered&lt;br&gt;Datasets, In 3DIM, 2005.&lt;br&gt;[2]. What and Where: 3D Object Recognition with Accurate Pose, 2006&lt;br&gt;[3]. Towards 3D Object Recognition via Classification of Arbitrary Object&lt;br&gt;Tracks, IN ICRA, 2011.&lt;br&gt;[4]. Shape-based Object Recognition in Videos Using 3D Synthetic Object&lt;br&gt;Models, In CVPR, 2009&lt;/https:&gt;&lt;/https:&gt;&lt;/https:&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。&lt;/p&gt;
-&lt;p&gt;##papaer reading&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; cla
+&lt;h2 id=&quot;papaer-reading&quot;&gt;&lt;a href=&quot;#papaer-reading&quot; class=&quot;headerlink&quot;
     
     </summary>
     

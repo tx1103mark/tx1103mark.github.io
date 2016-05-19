@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-14T16:10:44.302Z</updated>
+  <updated>2016-05-19T14:37:56.999Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,10 +19,12 @@
     <title>图像分析与理解2016-05-14</title>
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
-    <published>2016-05-14T11:19:52.000Z</published>
-    <updated>2016-05-14T16:10:44.302Z</updated>
+    <published>2016-05-14T11:19:52.839Z</published>
+    <updated>2016-05-19T14:37:56.999Z</updated>
     
     <content type="html">&lt;p&gt;第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。&lt;/p&gt;
+&lt;h2 id=&quot;Group-member&quot;&gt;&lt;a href=&quot;#Group-member&quot; class=&quot;headerlink&quot; title=&quot;Group member&quot;&gt;&lt;/a&gt;Group member&lt;/h2&gt;&lt;p&gt;郑俊，何轩利，刘小飞，段曹辉&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&quot;papaer-reading&quot;&gt;&lt;a href=&quot;#papaer-reading&quot; class=&quot;headerlink&quot; title=&quot;papaer reading&quot;&gt;&lt;/a&gt;papaer reading&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;Mixed Reality Simulation with Physical Mobile Display Devices.（移动显示设备的混合现实仿真系统）  &lt;/li&gt;
 &lt;li&gt;&lt;h3 id=&quot;reading结果应包含以下几个部分&quot;&gt;&lt;a href=&quot;#reading结果应包含以下几个部分&quot; class=&quot;headerlink&quot; title=&quot;reading结果应包含以下几个部分&quot;&gt;&lt;/a&gt;reading结果应包含以下几个部分&lt;/h3&gt;&lt;/li&gt;
@@ -58,7 +60,7 @@
     <summary type="html">
     
       &lt;p&gt;第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。&lt;/p&gt;
-&lt;h2 id=&quot;papaer-reading&quot;&gt;&lt;a href=&quot;#papaer-reading&quot; class=&quot;headerlink&quot;
+&lt;h2 id=&quot;Group-member&quot;&gt;&lt;a href=&quot;#Group-member&quot; class=&quot;headerlink&quot; tit
     
     </summary>
     

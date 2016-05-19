@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Markz Blog</title>
+  <title>Markz Team Blog</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-14T16:08:23.975Z</updated>
+  <updated>2016-05-14T16:10:44.302Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
     <published>2016-05-14T11:19:52.000Z</published>
-    <updated>2016-05-14T16:08:23.975Z</updated>
+    <updated>2016-05-14T16:10:44.302Z</updated>
     
     <content type="html">&lt;p&gt;第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。&lt;/p&gt;
 &lt;h2 id=&quot;papaer-reading&quot;&gt;&lt;a href=&quot;#papaer-reading&quot; class=&quot;headerlink&quot; title=&quot;papaer reading&quot;&gt;&lt;/a&gt;papaer reading&lt;/h2&gt;&lt;ul&gt;

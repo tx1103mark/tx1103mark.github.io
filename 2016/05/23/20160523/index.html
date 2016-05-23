@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android," />
 
 
 
@@ -86,15 +86,27 @@
 
 
 
-<meta name="description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Markz Team Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="这几天，趁着空闲时间，玩了一下android开发，主要是为了term project做准备吧，还是记录一下过程吧。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+开发环境android studio搭建参考的是这篇文章-http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/顺便提一下，用模拟器很慢，还是真机开">
+<meta property="og:type" content="article">
+<meta property="og:title" content="android 开发之简单拍摄照片">
+<meta property="og:url" content="http://yoursite.com/2016/05/23/20160523/index.html">
 <meta property="og:site_name" content="Markz Team Blog">
-<meta property="og:description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
+<meta property="og:description" content="这几天，趁着空闲时间，玩了一下android开发，主要是为了term project做准备吧，还是记录一下过程吧。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+开发环境android studio搭建参考的是这篇文章-http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/顺便提一下，用模拟器很慢，还是真机开">
+<meta property="og:image" content="http://yoursite.com/../images/43533098357302553.png">
+<meta property="og:updated_time" content="2016-05-23T03:26:02.374Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markz Team Blog">
-<meta name="twitter:description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
+<meta name="twitter:title" content="android 开发之简单拍摄照片">
+<meta name="twitter:description" content="这几天，趁着空闲时间，玩了一下android开发，主要是为了term project做准备吧，还是记录一下过程吧。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+开发环境android studio搭建参考的是这篇文章-http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/顺便提一下，用模拟器很慢，还是真机开">
+<meta name="twitter:image" content="http://yoursite.com/../images/43533098357302553.png">
 
 
 
@@ -112,7 +124,7 @@
   };
 </script>
 
-  <title> Markz Team Blog </title>
+  <title> android 开发之简单拍摄照片 | Markz Team Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,9 +145,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -232,9 +242,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -254,10 +264,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/05/23/20160523/" itemprop="url">
-                  android 开发之简单拍摄照片
-                </a>
+                android 开发之简单拍摄照片
               
             
           </h1>
@@ -304,9 +311,7 @@
       
 
       
-        
-          
-            <p>这几天，趁着空闲时间，玩了一下android开发，主要是为了term project做准备吧，还是记录一下过程吧。</p>
+        <p>这几天，趁着空闲时间，玩了一下android开发，主要是为了term project做准备吧，还是记录一下过程吧。</p>
 <h2 id="Group-member"><a href="#Group-member" class="headerlink" title="Group member"></a>Group member</h2><p>郑俊，何轩利，刘小飞，段曹辉</p>
 <hr>
 <h2 id="开发环境android-studio搭建"><a href="#开发环境android-studio搭建" class="headerlink" title="开发环境android studio搭建"></a>开发环境android studio搭建</h2><p>参考的是这篇文章-<a href="http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/" target="_blank" rel="external">http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/</a><br>顺便提一下，用模拟器很慢，还是真机开发吧。</p>
@@ -319,278 +324,77 @@
 <p>获取缩略图<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">handleSmallCameraPhoto</span><span class="params">(Intent intent)</span> </span>&#123;</span><br><span class="line">        Bundle extras = intent.getExtras();</span><br><span class="line">        mImageBitmap = (Bitmap) extras.get(<span class="string">"data"</span>);</span><br><span class="line">        mImageView.setImageBitmap(mImageBitmap);</span><br><span class="line">        mVideoUri = <span class="keyword">null</span>;</span><br><span class="line">        mImageView.setVisibility(View.VISIBLE);</span><br><span class="line">        mVideoView.setVisibility(View.INVISIBLE);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
 <p>程序运行截图<br><img src="../images/43533098357302553.png" alt="take picture"></p>
 <h3 id="接下来准备研究一下关于3D-object-recognition图像处理相关的算法"><a href="#接下来准备研究一下关于3D-object-recognition图像处理相关的算法" class="headerlink" title="接下来准备研究一下关于3D  object recognition图像处理相关的算法!"></a>接下来准备研究一下关于3D  object recognition图像处理相关的算法!</h3>
-          
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-图像处理 " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/14/My-New-Post/" itemprop="url">
-                  图像分析与理解2016-05-14
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-14T19:19:52+08:00" content="2016-05-14">
-              2016-05-14
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/14/My-New-Post/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/14/My-New-Post/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/android/" rel="tag">#android</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>第一篇博客就把本课程的任务目标记录一下吧，主要分为两部分，一部分paper reading，另一部分为term project。</p>
-<h2 id="Group-member"><a href="#Group-member" class="headerlink" title="Group member"></a>Group member</h2><p>郑俊，何轩利，刘小飞，段曹辉</p>
-<hr>
-<h2 id="papaer-reading"><a href="#papaer-reading" class="headerlink" title="papaer reading"></a>papaer reading</h2><ul>
-<li><h3 id="title"><a href="#title" class="headerlink" title="title"></a>title</h3>Mixed Reality Simulation with Physical Mobile Display Devices.（移动显示设备的混合现实仿真系统）  </li>
-<li><h3 id="reading结果应包含以下几个部分"><a href="#reading结果应包含以下几个部分" class="headerlink" title="reading结果应包含以下几个部分"></a>reading结果应包含以下几个部分</h3></li>
-<li>1.What is the task/goal of this paper?</li>
-<li>2.What are major challenges?</li>
-<li>3.What is the concept of their contributions/novelties?</li>
-<li>4.What are their methods?</li>
-<li>5.Evaluation</li>
-<li>6.Pros and Cons</li>
-</ul>
-<hr>
-<h2 id="term-project"><a href="#term-project" class="headerlink" title="term project"></a>term project</h2><ul>
-<li><h3 id="title-1"><a href="#title-1" class="headerlink" title="title"></a>title</h3>3D Object Recognition  </li>
-<li><h3 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h3></li>
-<li>&emsp;Bonus (Realizing each of the following tasks you can gain up to 10%<br>more scores of your project score, i.e. your final project score = basic<br>project score * 110% )  </li>
-</ul>
-<ol>
-<li>&emsp;Implement 3D object recognition on mobile devices (+10%)</li>
-<li>&emsp;Result evaluation on public datasets (+10%):<br>&emsp;&emsp;a. B3DO: Berkeley 3-D Object Dataset: <a href="http://kinectdata.com/" target="_blank" rel="external">http://kinectdata.com/</a><br>&emsp;&emsp;b. MSR-Object3D-300 Dataset&gt;:<br><a href="http://research.microsoft.com/enus/projects/3d_reconstruction_recognition/3d_obj_recognition.aspx" target="_blank" rel="external">http://research.microsoft.com/enus/projects/3d_reconstruction_recognition/3d_obj_recognition.aspx</a></li>
-</ol>
-<ul>
-<li><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3></li>
-<li><a href="https://www.youtube.com/watch?v=eRW1zG_aONk" target="_blank" rel="external">https://www.youtube.com/watch?v=eRW1zG_aONk</a>(YouTube video)  </li>
-<li><a href="https://www.youtube.com/watch?v=TgnocccmS7U" target="_blank" rel="external">https://www.youtube.com/watch?v=TgnocccmS7U</a>(YouTube video)  </li>
-<li><a href="https://www.youtube.com/watch?v=4rMAxjl5og8" target="_blank" rel="external">https://www.youtube.com/watch?v=4rMAxjl5og8</a>(YouTube video)<br>You can refer to but not limited to the following references  </li>
-<li>[1]. Unsupervised 3D Object Recognition and Reconstruction in Unordered<br>Datasets, In 3DIM, 2005.  </li>
-<li>[2]. What and Where: 3D Object Recognition with Accurate Pose, 2006  </li>
-<li>[3]. Towards 3D Object Recognition via Classification of Arbitrary Object<br>Tracks, IN ICRA, 2011.  </li>
-<li>[4]. Shape-based Object Recognition in Videos Using 3D Synthetic Object<br>Models, In CVPR, 2009</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/05/14/My-New-Post/" rel="next" title="图像分析与理解2016-05-14">
+                <i class="fa fa-chevron-left"></i> 图像分析与理解2016-05-14
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/05/14/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-14T16:50:01+08:00" content="2016-05-14">
-              2016-05-14
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/14/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/14/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/05/23/20160523/"
+     data-title="android 开发之简单拍摄照片"
+     data-content=""
+     data-url="http://yoursite.com/2016/05/23/20160523/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -598,6 +402,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/23/20160523/"
+           data-title="android 开发之简单拍摄照片" data-url="http://yoursite.com/2016/05/23/20160523/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -617,8 +429,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -679,6 +500,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Group-member"><span class="nav-number">1.</span> <span class="nav-text">Group member</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开发环境android-studio搭建"><span class="nav-number">2.</span> <span class="nav-text">开发环境android studio搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#android开发官方文档中文版"><span class="nav-number">3.</span> <span class="nav-text">android开发官方文档中文版</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#写的第一个程序，调用摄像头拍摄照片"><span class="nav-number">4.</span> <span class="nav-text">写的第一个程序，调用摄像头拍摄照片</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#接下来准备研究一下关于3D-object-recognition图像处理相关的算法"><span class="nav-number">4.1.</span> <span class="nav-text">接下来准备研究一下关于3D  object recognition图像处理相关的算法!</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -775,6 +607,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

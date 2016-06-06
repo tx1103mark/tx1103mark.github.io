@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android," />
 
 
 
@@ -86,15 +86,27 @@
 
 
 
-<meta name="description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Markz Team Blog">
-<meta property="og:url" content="http://yoursite.com/tags/图像处理/index.html">
+<meta name="description" content="最近在网上查找资料的时候，发现了一个被经常搜索到的库(Point Cloud Library (PCL),并且在object recognize方面有一些例子，于是向试试效果。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+compile PCL for Android比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译由于对于cmake和make工具使用的不熟练">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pcl图像处理库使用">
+<meta property="og:url" content="http://yoursite.com/2016/06/06/20160606/index.html">
 <meta property="og:site_name" content="Markz Team Blog">
-<meta property="og:description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
+<meta property="og:description" content="最近在网上查找资料的时候，发现了一个被经常搜索到的库(Point Cloud Library (PCL),并且在object recognize方面有一些例子，于是向试试效果。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+compile PCL for Android比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译由于对于cmake和make工具使用的不熟练">
+<meta property="og:image" content="http://yoursite.com/../images/bug.jpg">
+<meta property="og:updated_time" content="2016-06-06T15:34:13.661Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markz Team Blog">
-<meta name="twitter:description" content="很多时候不是看到了希望才去努力，而是努力之后才能看到希望">
+<meta name="twitter:title" content="pcl图像处理库使用">
+<meta name="twitter:description" content="最近在网上查找资料的时候，发现了一个被经常搜索到的库(Point Cloud Library (PCL),并且在object recognize方面有一些例子，于是向试试效果。
+Group member郑俊，何轩利，刘小飞，段曹辉
+
+compile PCL for Android比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译由于对于cmake和make工具使用的不熟练">
+<meta name="twitter:image" content="http://yoursite.com/../images/bug.jpg">
 
 
 
@@ -112,7 +124,7 @@
   };
 </script>
 
-  <title> 标签: 图像处理 | Markz Team Blog </title>
+  <title> pcl图像处理库使用 | Markz Team Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,7 +145,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -231,46 +243,151 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        图像处理
-        <small>标签</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-图像处理 " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                pcl图像处理库使用
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-06T23:00:45+08:00" content="2016-06-06">
+              2016-06-06
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/06/20160606/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/06/20160606/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-图像处理" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <p>最近在网上查找资料的时候，发现了一个被经常搜索到的库(Point Cloud Library (PCL)<br>,并且在object recognize方面有一些例子，于是向试试效果。</p>
+<h2 id="Group-member"><a href="#Group-member" class="headerlink" title="Group member"></a>Group member</h2><p>郑俊，何轩利，刘小飞，段曹辉</p>
+<hr>
+<h3 id="compile-PCL-for-Android"><a href="#compile-PCL-for-Android" class="headerlink" title="compile PCL for Android"></a>compile PCL for Android</h3><p>比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译<br>由于对于cmake和make工具使用的不熟练，导致犯了很多错误，其中有一个印象最深刻的错误就是”no rule for target all nologo”,找了好久才解决，还是记录一下吧。<br>首先要从cmake工具说起，它主要用来产生makefile文件的，但是可以选择产生什么类型的makefile，如vs下的nmake类型的makefile，unix类型的makefile，而windows下安装的MinGw的make工具是用来make unix类型的文件，如果用来make nmake类型的makefile，就会出现很多莫名其妙的错误，如上述的错误。</p>
+<p>但最后还是没有make成功，结果如下，不知道什么原因，可能和windows操作系统有关<br><img src="../images/bug.jpg" alt="result"></p>
 
-      <h1 class="post-title">
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2016/05/14/My-New-Post/" itemprop="url">
-              
-                <span itemprop="name">图像分析与理解2016-05-14</span>
-              
-            </a>
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-05-14T19:19:52+08:00"
-              content="2016-05-14" >
-          05-14
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/android/" rel="tag">#android</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/29/20160529/" rel="next" title="android 开发之opencv的使用">
+                <i class="fa fa-chevron-left"></i> android 开发之opencv的使用
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </div>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/06/06/20160606/"
+     data-title="pcl图像处理库使用"
+     data-content=""
+     data-url="http://yoursite.com/2016/06/06/20160606/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -278,6 +395,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/06/06/20160606/"
+           data-title="pcl图像处理库使用" data-url="http://yoursite.com/2016/06/06/20160606/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -297,8 +422,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -359,6 +493,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Group-member"><span class="nav-number">1.</span> <span class="nav-text">Group member</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#compile-PCL-for-Android"><span class="nav-number">1.1.</span> <span class="nav-text">compile PCL for Android</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -455,6 +600,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

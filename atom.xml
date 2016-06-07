@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-07T16:03:25.581Z</updated>
+  <updated>2016-06-07T16:06:06.140Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://yoursite.com/2016/06/06/20160606/"/>
     <id>http://yoursite.com/2016/06/06/20160606/</id>
     <published>2016-06-06T15:00:45.089Z</published>
-    <updated>2016-06-07T16:03:25.581Z</updated>
+    <updated>2016-06-07T16:06:06.140Z</updated>
     
     <content type="html">&lt;p&gt;最近在网上查找资料的时候，发现了一个被经常搜索到的库(Point Cloud Library (PCL)&lt;br&gt;,并且在object recognize方面有一些例子，于是向试试效果。&lt;/p&gt;
 &lt;h2 id=&quot;Group-member&quot;&gt;&lt;a href=&quot;#Group-member&quot; class=&quot;headerlink&quot; title=&quot;Group member&quot;&gt;&lt;/a&gt;Group member&lt;/h2&gt;&lt;p&gt;郑俊，何轩利，刘小飞，段曹辉&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;compile-PCL-for-Android&quot;&gt;&lt;a href=&quot;#compile-PCL-for-Android&quot; class=&quot;headerlink&quot; title=&quot;compile PCL for Android&quot;&gt;&lt;/a&gt;compile PCL for Android&lt;/h3&gt;&lt;p&gt;比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译&lt;br&gt;由于对于cmake和make工具使用的不熟练，导致犯了很多错误，其中有一个印象最深刻的错误就是”no rule for target all nologo”,找了好久才解决，还是记录一下吧。&lt;br&gt;首先要从cmake工具说起，它主要用来产生makefile文件的，但是可以选择产生什么类型的makefile，如vs下的nmake类型的makefile，unix类型的makefile，而windows下安装的MinGw的make工具是用来make unix类型的文件，如果用来make nmake类型的makefile，就会出现很多莫名其妙的错误，如上述的错误。&lt;/p&gt;
-&lt;p&gt;但最后还是没有make成功，结果如下，不知道什么原因，可能和windows操作系统有关&lt;br&gt;&lt;img src=&quot;../images/bug.jpg&quot; alt=&quot;result&quot;&gt;&lt;/p&gt;
+&lt;p&gt;但最后还是没有make成功，结果如下，不知道什么原因，可能和windows操作系统有关&lt;br&gt;&lt;img src=&quot;../images/bug.jpg&quot; alt=&quot;bug&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;问题解决&quot;&gt;&lt;a href=&quot;#问题解决&quot; class=&quot;headerlink&quot; title=&quot;问题解决&quot;&gt;&lt;/a&gt;问题解决&lt;/h3&gt;&lt;p&gt;在碰到如此多的麻烦后，还是用用vs带的C++编译器试试，安装完vs2008，成功编译出vs工程文件&lt;br&gt;&lt;img src=&quot;../images/compsuccess.jpg&quot; alt=&quot;compile&quot;&gt;  &lt;/p&gt;
 &lt;p&gt;期间碰到的问题也顺便提一下吧，由于安装vs2008时默认没有安装x64编译器，所以cmake会出现”No CMAKE_CXX_COMPILER could be found.”,需要添加x64编译器的安装。&lt;/p&gt;
 &lt;h3 id=&quot;windows-下pcl开发环境搭建&quot;&gt;&lt;a href=&quot;#windows-下pcl开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;windows 下pcl开发环境搭建&quot;&gt;&lt;/a&gt;windows 下pcl开发环境搭建&lt;/h3&gt;&lt;p&gt;还是直接放上结果图吧&lt;br&gt;&lt;img src=&quot;../images/bianyi.jpg&quot; alt=&quot;bianyi&quot;&gt;&lt;br&gt;&lt;img src=&quot;../images/plcexample.jpg&quot; alt=&quot;pclexample&quot;&gt;&lt;br&gt;参考：&lt;a href=&quot;http://my.oschina.net/gujianhan/blog/203530&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://my.oschina.net/gujianhan/blog/203530&lt;/a&gt;&lt;/p&gt;

@@ -310,7 +310,7 @@
 <h2 id="Group-member"><a href="#Group-member" class="headerlink" title="Group member"></a>Group member</h2><p>郑俊，何轩利，刘小飞，段曹辉</p>
 <hr>
 <h3 id="compile-PCL-for-Android"><a href="#compile-PCL-for-Android" class="headerlink" title="compile PCL for Android"></a>compile PCL for Android</h3><p>比较坑，没有直接提供向opencv4android一样的sdk，必须源码编译<br>由于对于cmake和make工具使用的不熟练，导致犯了很多错误，其中有一个印象最深刻的错误就是”no rule for target all nologo”,找了好久才解决，还是记录一下吧。<br>首先要从cmake工具说起，它主要用来产生makefile文件的，但是可以选择产生什么类型的makefile，如vs下的nmake类型的makefile，unix类型的makefile，而windows下安装的MinGw的make工具是用来make unix类型的文件，如果用来make nmake类型的makefile，就会出现很多莫名其妙的错误，如上述的错误。</p>
-<p>但最后还是没有make成功，结果如下，不知道什么原因，可能和windows操作系统有关<br><img src="../images/bug.jpg" alt="result"></p>
+<p>但最后还是没有make成功，结果如下，不知道什么原因，可能和windows操作系统有关<br><img src="../images/bug.jpg" alt="bug"></p>
 <h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><p>在碰到如此多的麻烦后，还是用用vs带的C++编译器试试，安装完vs2008，成功编译出vs工程文件<br><img src="../images/compsuccess.jpg" alt="compile">  </p>
 <p>期间碰到的问题也顺便提一下吧，由于安装vs2008时默认没有安装x64编译器，所以cmake会出现”No CMAKE_CXX_COMPILER could be found.”,需要添加x64编译器的安装。</p>
 <h3 id="windows-下pcl开发环境搭建"><a href="#windows-下pcl开发环境搭建" class="headerlink" title="windows 下pcl开发环境搭建"></a>windows 下pcl开发环境搭建</h3><p>还是直接放上结果图吧<br><img src="../images/bianyi.jpg" alt="bianyi"><br><img src="../images/plcexample.jpg" alt="pclexample"><br>参考：<a href="http://my.oschina.net/gujianhan/blog/203530" target="_blank" rel="external">http://my.oschina.net/gujianhan/blog/203530</a></p>

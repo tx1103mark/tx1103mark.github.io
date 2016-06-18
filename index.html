@@ -255,6 +255,124 @@
             
               
                 
+                <a class="post-title-link" href="/2016/06/18/201606016/" itemprop="url">
+                  图像分析和理解3D object recongnition总结
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-18T15:01:51+08:00" content="2016-06-18">
+              2016-06-18
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/18/201606016/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/18/201606016/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>截止到今天，对图像分析和理解term project总结</p>
+<h2 id="Group-member"><a href="#Group-member" class="headerlink" title="Group member"></a>Group member</h2><h2 id="郑俊，何轩利，刘小飞，段曹辉"><a href="#郑俊，何轩利，刘小飞，段曹辉" class="headerlink" title="郑俊，何轩利，刘小飞，段曹辉"></a>郑俊，何轩利，刘小飞，段曹辉</h2><h2 id="overview"><a href="#overview" class="headerlink" title="overview"></a>overview</h2><ul>
+<li>Scene<br>给定的场景<ul>
+<li>Model<br>待识别的object</li>
+<li>3D object recognition<br>根据事先定义的Model，从Scene中识别出对应的object<h2 id="framework"><a href="#framework" class="headerlink" title="framework"></a>framework</h2></li>
+<li>基于pcl_recognition模型的3D object recognition</li>
+<li>Load model and scene pcd文件</li>
+<li>设置分辨率</li>
+<li>计算法线</li>
+<li>通过降采样提取关键点</li>
+<li>计算关键点的特征向量</li>
+<li>利用KD tree寻找Model-Scene Correspondences</li>
+<li>为每一个关键点特征向量寻找最近邻点，并添加到correspondences vector.<br>进行聚类<br>Using Hough3D<br>Using GeometricConsistency</li>
+<li>显示结果</li>
+<li>设置参数，model<em>ss</em>，scene<em>ss</em>，rf<em>rad</em>，descr<em>rad</em>，cg<em>size</em>，cg<em>thresh</em>  <h2 id="result"><a href="#result" class="headerlink" title="result"></a>result</h2><img src="../images/picture1.png" alt="bianyi1"> </li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-图像处理 " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/06/14/201606014/" itemprop="url">
                   pcl图像处理库使用进阶之3D object recongnition
                 </a>
@@ -963,7 +1081,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">6</span>
+              <span class="site-state-item-count">7</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>

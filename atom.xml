@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-15T11:58:35.618Z</updated>
+  <updated>2016-06-18T07:15:19.752Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图像分析和理解3D object recongnition总结</title>
+    <link href="http://yoursite.com/2016/06/18/201606016/"/>
+    <id>http://yoursite.com/2016/06/18/201606016/</id>
+    <published>2016-06-18T07:01:51.871Z</published>
+    <updated>2016-06-18T07:15:19.752Z</updated>
+    
+    <content type="html">&lt;p&gt;截止到今天，对图像分析和理解term project总结&lt;/p&gt;
+&lt;h2 id=&quot;Group-member&quot;&gt;&lt;a href=&quot;#Group-member&quot; class=&quot;headerlink&quot; title=&quot;Group member&quot;&gt;&lt;/a&gt;Group member&lt;/h2&gt;&lt;h2 id=&quot;郑俊，何轩利，刘小飞，段曹辉&quot;&gt;&lt;a href=&quot;#郑俊，何轩利，刘小飞，段曹辉&quot; class=&quot;headerlink&quot; title=&quot;郑俊，何轩利，刘小飞，段曹辉&quot;&gt;&lt;/a&gt;郑俊，何轩利，刘小飞，段曹辉&lt;/h2&gt;&lt;h2 id=&quot;overview&quot;&gt;&lt;a href=&quot;#overview&quot; class=&quot;headerlink&quot; title=&quot;overview&quot;&gt;&lt;/a&gt;overview&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Scene&lt;br&gt;给定的场景&lt;ul&gt;
+&lt;li&gt;Model&lt;br&gt;待识别的object&lt;/li&gt;
+&lt;li&gt;3D object recognition&lt;br&gt;根据事先定义的Model，从Scene中识别出对应的object&lt;h2 id=&quot;framework&quot;&gt;&lt;a href=&quot;#framework&quot; class=&quot;headerlink&quot; title=&quot;framework&quot;&gt;&lt;/a&gt;framework&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;基于pcl_recognition模型的3D object recognition&lt;/li&gt;
+&lt;li&gt;Load model and scene pcd文件&lt;/li&gt;
+&lt;li&gt;设置分辨率&lt;/li&gt;
+&lt;li&gt;计算法线&lt;/li&gt;
+&lt;li&gt;通过降采样提取关键点&lt;/li&gt;
+&lt;li&gt;计算关键点的特征向量&lt;/li&gt;
+&lt;li&gt;利用KD tree寻找Model-Scene Correspondences&lt;/li&gt;
+&lt;li&gt;为每一个关键点特征向量寻找最近邻点，并添加到correspondences vector.&lt;br&gt;进行聚类&lt;br&gt;Using Hough3D&lt;br&gt;Using GeometricConsistency&lt;/li&gt;
+&lt;li&gt;显示结果&lt;/li&gt;
+&lt;li&gt;设置参数，model&lt;em&gt;ss&lt;/em&gt;，scene&lt;em&gt;ss&lt;/em&gt;，rf&lt;em&gt;rad&lt;/em&gt;，descr&lt;em&gt;rad&lt;/em&gt;，cg&lt;em&gt;size&lt;/em&gt;，cg&lt;em&gt;thresh&lt;/em&gt;  &lt;h2 id=&quot;result&quot;&gt;&lt;a href=&quot;#result&quot; class=&quot;headerlink&quot; title=&quot;result&quot;&gt;&lt;/a&gt;result&lt;/h2&gt;&lt;img src=&quot;../images/picture1.png&quot; alt=&quot;bianyi1&quot;&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;截止到今天，对图像分析和理解term project总结&lt;/p&gt;
+&lt;h2 id=&quot;Group-member&quot;&gt;&lt;a href=&quot;#Group-member&quot; class=&quot;headerlink&quot; title=&quot;Group member&quot;&gt;&lt;/a&gt;Group member&lt;/
+    
+    </summary>
+    
+    
+      <category term="pcl，object recognition" scheme="http://yoursite.com/tags/pcl%EF%BC%8Cobject-recognition/"/>
+    
+  </entry>
   
   <entry>
     <title>pcl图像处理库使用进阶之3D object recongnition</title>
